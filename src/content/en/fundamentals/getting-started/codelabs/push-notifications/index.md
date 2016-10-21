@@ -2,7 +2,7 @@ project_path: /web/_project.yaml
 book_path: /web/fundamentals/_book.yaml
 description: In this codelab, you will learn how to enable push messaging and notifications for web apps and sites.
 
-{# wf_updated_on: 2016-10-10T14:58:32Z #}
+{# wf_updated_on: 2016-10-20T18:22:48Z #}
 {# wf_published_on: 2016-01-01 #}
 
 
@@ -183,7 +183,7 @@ For this step, you need to set up a project on the Firebase Developer Console.
 
 1. Create a project
 
-From the  [Firebase Developers Console](https://firebase.google.com/console/) create a new project:
+From the  [Firebase Developers Console](https://console.firebase.google.com/) create a new project:
 
 ![a4eac9ab79130343.png](img/a4eac9ab79130343.png)
 2. Once you've created your new project you need to go to the __Project Settings __page.
@@ -532,11 +532,11 @@ Did you check and validate your code? If your Service Worker code can't be parse
 
 __My request to FCM is failing__
 
-Check the project on  [console.developers.google.com](https://console.developers.google.com/). Make sure that the `gcm_sender_id` matches the Project Number and the Authorization key value matches the API key. Make sure you're looking at the right project!
+Check the project on  [console.firebase.google.com](https://console.firebase.google.com/). Make sure that the `gcm_sender_id` matches the Project Number and the Authorization key value matches the API key. Make sure you're looking at the right project!
 
 __The request to FCM is working, but no push event is fired__
 
-Check the subscription ID from the console for __main.js__. Is the subscription ID in the array of IDs for your request correctly? Make sure you you have the messaging API enabled on  [console.developers.google.com](https://console.developers.google.com/).
+Check the subscription ID from the console for __main.js__. Is the subscription ID in the array of IDs for your request correctly? Make sure you you have the messaging API enabled on  [console.firebase.google.com](https://console.firebase.google.com/).
 
 __I'm getting strange errors__
 
